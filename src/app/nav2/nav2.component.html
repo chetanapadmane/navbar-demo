@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light ml-auto">
   <div class="container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdemo2" (click)='onToggle2()'>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" (click)='onToggle2()'>
       <span class="navbar-toggler-icon"></span>
     </button>
     <a href="#" class="navbar-brand">DEMO NAVBAR</a>
@@ -31,7 +31,7 @@
 </nav>
 <div>
   <nav class="navbar navbar-expand-sm bg-light">
-    <div class="collapse navbar-collapse navdemo1" id="navdemo1" [ngClass]='{"show":navbarOpen2}'>
+    <div class="collapse navbar-collapse navdemo1" id="navdemo2" [ngClass]='{"show":navbarOpen2}'>
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="#">Link 1</a>
